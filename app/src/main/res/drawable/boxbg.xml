@@ -1,0 +1,18 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--released state. -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius"/>
+            <solid android:color="@color/item_background"/>
+        </shape>
+    </item>
+
+    <!--pressed state. -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius"/>
+            <solid android:color="@color/item_background_pressed"/>
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--login layout-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="large_text">#54575c</color>
+    <color name="small_text">#b8bcbf</color>
+    <color name="item_background">#eae8e8</color>
+
+    <color name="item_background_pressed">#e2dfdf</color>
+    <color name="background_full">#c3bfbf</color>
+
+
+    <!--login layout-->
+    <color name="title_color">#4980f9</color>
+    <color name="input_form">#f6f7f9</color>
+    <color name="button_login_text">#ffffff</color>
+    <color name="button_login_background">#4980f9</color>
+    <color name="footer">#000000</color>
+
+</resources>

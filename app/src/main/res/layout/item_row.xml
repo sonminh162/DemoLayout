@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="@dimen/item_row_margin"
+    android:layout_marginEnd="@dimen/item_row_margin"
+    android:gravity="clip_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/boxbg"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/imgArrow"
+        android:text="TextView"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_toStartOf="@id/imgArrow"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_marginEnd="@dimen/img_margin"
+        android:id="@+id/imgArrow"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_icon_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

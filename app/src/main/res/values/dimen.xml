@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">20dp</dimen>
+    <dimen name="img_margin">20dp</dimen>
+    <dimen name="corner_radius">15dp</dimen>
+    <dimen name="item_row_margin">10dp</dimen>
+
+    <!--login layout-->
+
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="letter_spacing">2.46sp</dimen>
+    <dimen name="radius_input_form">4dp</dimen>
+    <dimen name="input_form_size">16sp</dimen>
+    <dimen name="input_form_padding_left">15dp</dimen>
+    <dimen name="input_form_padding_top">15dp</dimen>
+    <dimen name="input_form_padding_bottom">15dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+
+</resources>
