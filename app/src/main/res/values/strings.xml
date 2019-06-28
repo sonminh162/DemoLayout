@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">title</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="main_title">Craigslist</string>
+    <string name="user_name_hint">user name / user</string>
+    <string name="password_hint">password</string>
+    <string name="button_login">LOGIN</string>
+    <string name="find_password">Forgot password ?</string>
+    <string name="register_suggestion">Need an account? Click Here</string>
+    <string name="more_information">FAQ - Privacy Policy</string>
 </resources>
