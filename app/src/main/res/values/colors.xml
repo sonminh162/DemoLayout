@@ -21,4 +21,10 @@
     <color name="button_login_background">#4980f9</color>
     <color name="footer">#000000</color>
 
+    <!--Fragment-->
+    <color name="black">#000</color>
+    <color name="green">#0f0</color>
+    <color name="white">#fff</color>
+    <color name="button_background_color">#925</color>
+
 </resources>

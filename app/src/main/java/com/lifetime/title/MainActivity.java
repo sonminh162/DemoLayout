@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         listViewItem = findViewById(R.id.recycler_view);
         mangItem = new ArrayList<Item>();
 
-        mangItem.add(new Item("Item 1","description item 1"));
+        mangItem.add(new Item("Demo Fragment","Fragment activity"));
         mangItem.add(new Item("Item 2","description item 2"));
         mangItem.add(new Item("Item 3","description item 3"));
         mangItem.add(new Item("Item 4","description item 4"));
