@@ -9,4 +9,9 @@
     <string name="find_password">Forgot password ?</string>
     <string name="register_suggestion">Need an account? Click Here</string>
     <string name="more_information">FAQ - Privacy Policy</string>
+    <!--demo localizing-->
+    <string name="app_name_other">String Localization Example</string>
+    <string name="hello_world">Hello World</string>
+    <string name="do_something">Do something</string>
+    <string name="toast">This is a Toast</string>
 </resources>
