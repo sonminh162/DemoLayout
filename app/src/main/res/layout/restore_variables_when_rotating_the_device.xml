@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".RestoreVariablesWhenRotatingTheDevice">
+
+    <Button
+        android:id="@+id/button_decrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+    <TextView
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:text="0"
+        android:layout_margin="16dp"
+        android:id="@+id/text_view_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_increment"/>
+</LinearLayout>
