@@ -14,4 +14,7 @@
     <string name="hello_world">Hello World</string>
     <string name="do_something">Do something</string>
     <string name="toast">This is a Toast</string>
+    <string name="button">Button</string>
+    <string name="button1">Button</string>
+    <string name="test_text_tajmahal">Taj Mahal is widely considered as the most beautiful building in the world. It is located in the historial city of Agra. It was built by the Mughal Emperor Sha Jahan as a memorial for his third wife, Mumtaz Mahal</string>
 </resources>

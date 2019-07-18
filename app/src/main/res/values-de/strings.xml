@@ -4,4 +4,5 @@
     <string name="hello_world">Hallo Welt</string>
     <string name="do_something">Tu etwas</string>
     <string name="toast">Das ist ein Toast</string>
+    <string name="button">Button</string>
 </resources>

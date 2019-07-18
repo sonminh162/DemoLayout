@@ -11,14 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".LocalizingStringResources">
+        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         
-        <activity android:name=".MainActivity">
+        <activity android:name=".KeyframeAnimations">
             <intent-filter>
                 <action android:name="com.lifetime.title.intent">
                 </action>

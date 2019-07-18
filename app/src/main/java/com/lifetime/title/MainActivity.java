@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mangItem.add(new Item("Item 3","description item 3"));
         mangItem.add(new Item("Item 4","description item 4"));
         mangItem.add(new Item("Item 5","description item 5"));
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this,RecyclerView.VERTICAL,false);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
         listViewItem.setLayoutManager(layoutManager);
         ItemAdapter adapter = new ItemAdapter(mangItem,MainActivity.this);
         listViewItem.setAdapter(adapter);
